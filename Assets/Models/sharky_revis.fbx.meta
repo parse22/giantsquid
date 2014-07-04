@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: 347e6bffbbea1fe489eea8cce09f3c8d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Back_Fin_L_1
+    100002: Back_Fin_L_2
+    100004: Back_Fin_L_3
+    100006: Back_Fin_L_4
+    100008: body
+    100010: Front_Fin_L_1
+    100012: Front_Fin_L_2
+    100014: Front_Fin_L_3
+    100016: Front_Fin_R_1
+    100018: Front_Fin_R_2
+    100020: Front_Fin_R_3
+    100022: Head
+    100024: Jaw_1
+    100026: Jaw_2
+    100028: joint1
+    100030: joint2
+    100032: joint3
+    100034: joint4
+    100036: joint5
+    100038: joint6
+    100040: joint7
+    100042: joint8
+    100044: joint9
+    100046: left_eye
+    100048: right_eye
+    100050: //RootNode
+    100052: teeth
+    400000: Back_Fin_L_1
+    400002: Back_Fin_L_2
+    400004: Back_Fin_L_3
+    400006: Back_Fin_L_4
+    400008: body
+    400010: Front_Fin_L_1
+    400012: Front_Fin_L_2
+    400014: Front_Fin_L_3
+    400016: Front_Fin_R_1
+    400018: Front_Fin_R_2
+    400020: Front_Fin_R_3
+    400022: Head
+    400024: Jaw_1
+    400026: Jaw_2
+    400028: joint1
+    400030: joint2
+    400032: joint3
+    400034: joint4
+    400036: joint5
+    400038: joint6
+    400040: joint7
+    400042: joint8
+    400044: joint9
+    400046: left_eye
+    400048: right_eye
+    400050: //RootNode
+    400052: teeth
+    4300000: teeth
+    4300002: body
+    4300004: right_eye
+    4300006: left_eye
+    7400000: Swim
+    7400002: Sprint
+    7400004: Bite
+    7400006: Swim_Turn_Right
+    7400008: Swim_Turn_Left
+    7400010: Sprint_Turn_Right
+    7400012: Sprint_Turn_Left
+    7400014: OpenMouth
+    9500000: //RootNode
+    13700000: body
+    13700002: left_eye
+    13700004: right_eye
+    13700006: teeth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Swim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sprint
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 223
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bite
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Swim_Turn_Right
+      takeName: Take 001
+      firstFrame: 319
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Swim_Turn_Left
+      takeName: Take 001
+      firstFrame: 344
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sprint_Turn_Right
+      takeName: Take 001
+      firstFrame: 369
+      lastFrame: 370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sprint_Turn_Left
+      takeName: Take 001
+      firstFrame: 394
+      lastFrame: 395
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OpenMouth
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/Front_Fin_L_1
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2
+        weight: 1
+      - path: joint1/Front_Fin_L_1/Front_Fin_L_2/Front_Fin_L_3
+        weight: 1
+      - path: joint1/Front_Fin_R_1
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2
+        weight: 1
+      - path: joint1/Front_Fin_R_1/Front_Fin_R_2/Front_Fin_R_3
+        weight: 1
+      - path: joint1/Head
+        weight: 1
+      - path: joint1/Head/Jaw_1
+        weight: 1
+      - path: joint1/Head/Jaw_1/Jaw_2
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_1/Back_Fin_L_2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/Back_Fin_L_3/Back_Fin_L_4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: left_eye
+        weight: 1
+      - path: right_eye
+        weight: 1
+      - path: teeth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: joint1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
